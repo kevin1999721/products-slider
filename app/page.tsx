@@ -1,5 +1,12 @@
 import Image from 'next/image';
+import Products from '@/components/products/products.component';
 
-export default function Home() {
-	return <main></main>;
-}
+const Home = () => {
+	return (
+		<main>
+			<Products />
+		</main>
+	);
+};
+
+export default Home;
